@@ -2,6 +2,7 @@ import React from "react";
 import Main from "./Main";
 import Wrapper from "./components/Wrapper";
 import Header from "./components/header";
+import Index from "./index";
 
 import "./app.css";
 

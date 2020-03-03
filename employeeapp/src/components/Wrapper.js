@@ -4,10 +4,10 @@ import "../components/"
 
 function Wrapper({ children }) {
   return (
-      <div className="wrapper">
+      <div className="Wrapper">
         { children }
       </div>
   );
 }
 
-export default wrapper;
+export default Wrapper;

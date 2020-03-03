@@ -33,13 +33,13 @@ const EmployeeData = () => {
 
     const compareFnc = (a, b) => {
       if (currentOrder === "ascend") {
-        // account for missing values
+      
         if (a[heading] === undefined) {
           return 1;
         } else if (b[heading] === undefined) {
           return -1;
         }
-        // numerically
+       
         else if (heading === "name") {
           return a[heading].first.localeCompare(b[heading].first);
         } else if (heading === "dob") {
@@ -48,13 +48,12 @@ const EmployeeData = () => {
           return a[heading].localeCompare(b[heading]);
         }
       } else {
-        // account for missing values
+        
         if (a[heading] === undefined) {
           return 1;
         } else if (b[heading] === undefined) {
           return -1;
         }
-        // numerically
         else if (heading === "name") {
           return b[heading].first.localeCompare(a[heading].first);
         }else if (heading === "dob") {
