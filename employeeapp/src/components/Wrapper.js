@@ -1,5 +1,6 @@
 import React from 'react';
 import "../styles/wrapper.css";
+import "../components/"
 
 function Wrapper({ children }) {
   return (
@@ -9,4 +10,4 @@ function Wrapper({ children }) {
   );
 }
 
-export default Wrapper;
+export default wrapper;
