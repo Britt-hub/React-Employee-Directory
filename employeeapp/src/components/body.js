@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import "../styles/body.css";
 import DataAreaContext from "../utils/DataAreaContext";
 
-const body = () => {
+const Body = () => {
   const context = useContext(DataAreaContext);
 
   function formatDate(date) {
@@ -52,4 +52,4 @@ const body = () => {
   );
 }
 
-export default body;
+export default Body;

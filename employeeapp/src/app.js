@@ -1,17 +1,17 @@
 import React from "react";
 import Main from "./components/Main";
 import Wrapper from "./components/Wrapper";
-import Header from "./components/Header";
+// import Header from "./components/Header";
 // import Index from "./Index";
 
-import "./App.css";
+import "./styles/app.css";
 
 function App() {
   return (
     <div className="App">
       <Wrapper>
-        <Header />
-        <Main />
+        {/* <Header /> */}
+        {/* <Main /> */}
       </Wrapper>
     </div>
   );
