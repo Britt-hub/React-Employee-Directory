@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import DataTable from "./DataTable";
-// import Nav from "./Nav";
+import Nav from "./Nav";
 
 import "../styles/EmployeeData.css";
 import DataAreaContext from "../utils/DataAreaContext";
@@ -94,8 +94,9 @@ const EmployeeData = () => {
   return (
     <DataAreaContext.Provider
       value={{ developerState, handleSearchChange, handleSort }}
-    >
-      {/* <Nav /> */}
+      >
+        {/* nav bar having issues. need to resolved */}
+      <Nav />
       <div className="data-area">
         {developerState.filteredUsers.length > 0 ? <DataTable /> : <div></div>}
       </div>
