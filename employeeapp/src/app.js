@@ -1,14 +1,14 @@
 import React from "react";
 import Main from "./components/Main";
 import Wrapper from "./components/Wrapper";
-import Header from "./components/header";
-import Index from "./index";
+import Header from "./components/Header";
+// import Index from "./Index";
 
-import "./app.css";
+import "./App.css";
 
-function app() {
+function App() {
   return (
-    <div className="app">
+    <div className="App">
       <Wrapper>
         <Header />
         <Main />
@@ -17,4 +17,4 @@ function app() {
   );
 }
 
-export default app;
+export default App;
