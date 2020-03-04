@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import DataTable from "./DataTable";
 import Nav from "./Nav";
 
@@ -83,7 +83,7 @@ const EmployeeData = () => {
       console.log(filter, values)
     if(values.indexOf(filter.toLowerCase()) !== -1){
       return item
-    };
+      };
     });
 
     setDeveloperState({ ...developerState, filteredUsers: filteredList });

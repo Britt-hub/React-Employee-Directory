@@ -18,6 +18,7 @@ const SearchName = () => {
           type="search"
           placeholder="name"
           aria-label="Search"
+          //handle is not working
           onChange={e => context.handleSearchChange(e)}
         />
         </div>
